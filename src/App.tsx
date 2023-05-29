@@ -1,3 +1,5 @@
+import './index.scss'
+
 const App = () => {
 
   return <div>Hello World!!!</div>
