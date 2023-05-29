@@ -1,7 +1,7 @@
 import { render } from 'react-dom'
-import classes from './style.module.scss'
+import App from './App'
 
 render(
-    <div><button className={classes.btn}>Click</button></div>,
+    <App />,
     document.getElementById('root')
 )
