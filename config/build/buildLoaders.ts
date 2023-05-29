@@ -9,7 +9,12 @@ export default function buildLoaders({
     test: /\.s[ac]ss$/i,
     use: [
       isDev ? "style-loader" : MiniCssExtractPlugin.loader,
-      "css-loader",
+      {
+        loader: "css-loader",
+        options: {
+          modules: true,
+        },
+      },
       "sass-loader",
     ],
   };
