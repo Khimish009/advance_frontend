@@ -1,6 +1,7 @@
 @import url(./reset.scss);
+@import url(./variables/global.scss);
 
 
 .app {
-  font-size: 18px;
+  font: var(--font-m);
 }
